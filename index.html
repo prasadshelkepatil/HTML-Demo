@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel ="stylesheet"  href="style.css"> 
+</head>
+<body>
+    
+    <div class = "test1">
+   <nav>
+    <img src="images/menu.png" class="menu-img">
+    <img src="images/logo.png" class="logo">
+
+    <ul>
+        <li><a href="Login.html"> Login</a></li>
+        <li><a href="https://in.linkedin.com/company/encodingenhancers">About Us</a></li>
+        <li><a href="https://www.encodingenhancers.com/#">Services</a></li>
+        <li><a href="https://www.google.com/search?q=encoding+enhancer+contact&rlz=1C1FKPE_enIN995IN995&oq=encoding+enhancer+contact&aqs=chrome..69i57j33i10i160l2.12896j0j4&sourceid=chrome&ie=UTF-8">Contact</a></li>
+    </ul>
+   <button type="button" onclick="toggleBtn()" id="btn"><span></span></button>
+   </nav>
+   <div class="lamp-container">
+    <img src ="Images/lamp.png" class="lamp">
+    <img src="Images/light.png" class="light" id="light">
+
+    <div class ="text-container">
+        <h1>Encoding <br> Enhancers</h1>
+        
+            OBESSION FOR PERFECTION
+            <br>
+            <br>
+            <p>
+            
+        </p> 
+      <a href="https://www.easyleadz.com/company/encoding-enhancers">Check all details</a>
+    </div>
+  <div class="Name">
+    <h3>Prasad Shelke</h3>
+    <br>
+      Software Engineer.
+    <ul>
+        <li><a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox"> Gmail</a></li>
+        <li><a href="https://www.linkedin.com/notifications/">Linked Id</a></li>
+      
+        </ul>
+     
+
+</div>
+
+   </div>
+    </div>
+<script>
+var btn = document.getElementById("btn");
+var light = document.getElementById("light");
+
+   function toggleBtn(){
+    btn.classList.toggle("active");
+    light.classList.toggle("on");
+   }
+
+
+</script>
+<h4> Working Hours</h4>
+<table bgcolor="white" border="1" align="left" top:99%; >
+    <tr bgcolor="">
+        
+        <th width="100">Sunday</th>
+        <th width="100">Monday</th>
+        <th width="100">>Tueday</th>
+        <th width="100">Wednesday</th>
+        <th width="100">Thursday</th>
+        <th width="100">Friday</th>
+        <th width="100">Saturday</th>
+    </tr>
+    <tr bgcolor="" align="center">
+        <td>Closed</td>
+        <td>Closed</td>
+        <td>9-8</td>
+        <td>9-8</td>
+        <td>9-8</td>
+        <td>9-8</td>
+        <td>9-8</td>
+    </tr>
+</table>
+
+</body>
+</html>
